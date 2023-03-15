@@ -1,0 +1,30 @@
+GAME MÊ CUNG
+luật chơi : 2 người ở cùng 1 vị trí xuất phát, đi ăn các điểm rải rác trong mê cung. trận đấu kết thúc khi 1 trong 2 người đầu hàng hoặc số điểm đã bị ăn hết.
+
+Hình thức chơi :
+sẽ có 3 chế độ : chế độ dễ : mê cung không có sương mù .
+               : chế độ khó: mê cung có sương mù và sương mù chỉ mất khi có người đi vào vùng đó ( và nó vẫn sẽ sáng ngay cả khi người đó đã rời vị trí.
+               : chế độ không thể vượt qua : mê cung có sương mù và chỉ sáng 25 ô xung quanh nhân vật ( ô 5x5 với nhân vật ở trung tâm) 
+ (Note: dù ở chế độ nào thì các điểm ăn luôn sáng, chỉ có mê cung là bị sương mù che.)
+
+Các bước chơi game:
+Bước 1: chọn kích cỡ mê cung và số lượng điểm.
+Bước 2: chọn chế độ chơi.
+Bước 3: chơi game.
+
+             
+Cách tạo game : 
+Bước 1: Tạo mê cung
+      Sử dụng thuật toán tạo mê cung để tạo ra một mê cung có kích thước tùy ý. Có nhiều thuật toán khác nhau để tạo mê cung, nhưng một trong những thuật toán phổ biến là thuật toán Recursive Backtracker.
+      Sử dụng thuật toán tạo số ngẫu nhiên để tạo các điểm ăn.
+
+Bước 2: Tạo hoạt hình
+      Sử dụng SDL để tạo hoạt hình cho mê cung, các điểm ăn và các nhân vật.
+      Thiết kế các sprite cho mê cung, các điểm ăn và các nhân vật, sau đó sử dụng SDL để hiển thị chúng trên màn hình.
+      Tạo các hiệu ứng cho hoạt hình, ví dụ như khi nhân vật đi vào một ô thì ô đó sẽ sáng lên.
+
+Bước 3: Lập trình game
+      Sử dụng C++ để lập trình các logic và xử lý dữ liệu người chơi.
+      Thiết kế hệ thống điều khiển cho các nhân vật, ví dụ như bàn phím hoặc chuột.
+      Xử lý việc di chuyển của các nhân vật và tính điểm khi các điểm ăn được ăn.
+      Kiểm tra kết thúc trò chơi khi một trong hai người đầu hàng hoặc khi số điểm đã bị ăn hết.
